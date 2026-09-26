@@ -140,8 +140,8 @@ end
 
 vim.keymap.set({ "n" }, "<leader>ft", toggle_floating_terminal, { desc = "Toggle floating terminal" })
 
--- Toggle Codeium
-vim.keymap.set("n", "<leader>tc", "<cmd>CodeiumToggle<CR>", { desc = "Toggle Codeium" })
+-- Toggle Supermaven inline completion
+vim.keymap.set("n", "<leader>tc", "<cmd>SupermavenToggle<CR>", { desc = "Toggle Supermaven" })
 
 -- Duplicate line/selection down
 vim.keymap.set("n", "<M-S-Down>", ":t.<CR>", { silent = true })
